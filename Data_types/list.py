@@ -28,7 +28,6 @@ print(l2)
 l2.clear()
 print(l2)
 
-
 auto = []
 for i in range(10):
     auto.insert(i, i)
@@ -49,3 +48,5 @@ print(f_col)
 
 col = [i for i in range(1, 11)]
 print(col)
+
+l = [1, 2, [3, 4, 'hello']]
