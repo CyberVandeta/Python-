@@ -41,6 +41,6 @@ heros = ['batman', 'superman', 'spiderman']
 #     my_dict[name] = heros
 # print(my_dict)
 
-# my_dict = {name: hero for name, hero in zip(name, heros)}
-# print(my_dict)
+my_dict = {name: hero for name, hero in zip(name, heros)}
+print(my_dict)
 
